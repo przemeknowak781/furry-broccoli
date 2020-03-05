@@ -466,6 +466,9 @@ section.form .container {
   font-family: 'Lato', sans-serif;
   font-size: 80px;
 }
+#msg-box5-2 H3 {
+  font-size: 30px;
+}
 #menu-1 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -530,6 +533,12 @@ section.form .container {
 #menu-1 .btn {
   font-size: 16px;
 }
+#msg-box5-3 H3 {
+  font-size: 30px;
+}
+#msg-box5-4 H3 {
+  font-size: 30px;
+}
 #header3-d .mbr-section-title,
 #header3-d .mbr-section-subtitle {
   text-align: center;
@@ -562,9 +571,15 @@ section.form .container {
 #header3-i .mbr-section-subtitle {
   text-align: center;
 }
+#header3-i .mbr-section-title {
+  font-size: 46px;
+}
 #header3-g .mbr-section-title,
 #header3-g .mbr-section-subtitle {
   text-align: center;
+}
+#header3-g .mbr-section-title {
+  font-size: 36px;
 }
 #features1-n .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #efefef;

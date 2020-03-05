@@ -137,7 +137,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-2"
+          "_anchor": "msg-box5-2",
+          "_styles": {
+            "H3": {
+              "font-size": "30px"
+            }
+          }
         },
         {
           "_styles": {
@@ -277,7 +282,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-3"
+          "_anchor": "msg-box5-3",
+          "_styles": {
+            "H3": {
+              "font-size": "30px"
+            }
+          }
         },
         {
           "_params": {
@@ -329,7 +339,12 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-4"
+          "_anchor": "msg-box5-4",
+          "_styles": {
+            "H3": {
+              "font-size": "30px"
+            }
+          }
         },
         {
           "_styles": {
@@ -527,6 +542,9 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "46px"
             }
           },
           "_params": {
@@ -618,6 +636,9 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           },
           "_params": {
