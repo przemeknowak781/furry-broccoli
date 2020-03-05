@@ -567,6 +567,9 @@ section.form .container {
 #pricing-table2-o .mbr-plan .list-group-item {
   border-color: #cfcfcf;
 }
+#pricing-table2-o .mbr-price-figure {
+  font-size: 36px;
+}
 #header3-i .mbr-section-title,
 #header3-i .mbr-section-subtitle {
   text-align: center;

@@ -469,6 +469,9 @@
             },
             ".mbr-plan .list-group-item": {
               "border-color": "#cfcfcf"
+            },
+            ".mbr-price-figure": {
+              "font-size": "36px"
             }
           },
           "_params": {
@@ -524,9 +527,9 @@
           "currency3": "&nbsp;",
           "currency4": "&nbsp;&nbsp;",
           "price1": "72000",
-          "price2": "720 000",
-          "price3": "730 000",
-          "price4": "750 000",
+          "price2": "720000",
+          "price3": "730000",
+          "price4": "750000",
           "period1": ".00",
           "period2": ".00",
           "period3": ".00",
