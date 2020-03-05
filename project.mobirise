@@ -333,7 +333,7 @@
             }
           },
           "title": "FORMALNOŚCI? Z NAMI TO PESTKA!",
-          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "text": "Nasi specjaliści przeprowadzą Cię przez każdy etap inwestycji",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features1-n\" data-toolbar=\"-mbrBtnMove\">NASI SPECJALIŚCI</a>",
           "_tags": [
             "Theme"
@@ -509,7 +509,7 @@
             "Theme"
           ],
           "title": "OFERTA CENOWA",
-          "subtitle": "CENY POGLĄDOWE - PEŁNA OFERTA DOSTĘPNA U NASZYCH&nbsp;",
+          "subtitle": "CENY POGLĄDOWE - PEŁNA OFERTA DOSTĘPNA U NASZYCH SPECJALISTÓW",
           "title1": "STANDARD",
           "title2": "PODSTAWOWY",
           "title3": "PREMIUM",
