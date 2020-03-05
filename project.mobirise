@@ -547,7 +547,7 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "font-size": "46px"
+              "font-size": "36px"
             }
           },
           "_params": {
