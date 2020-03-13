@@ -539,36 +539,9 @@ section.form .container {
 #msg-box5-4 H3 {
   font-size: 30px;
 }
-#header3-d .mbr-section-title,
-#header3-d .mbr-section-subtitle {
-  text-align: center;
-}
-#header3-d .mbr-section-title {
-  color: #ffffff;
-}
 #header3-e .mbr-section-title,
 #header3-e .mbr-section-subtitle {
   text-align: center;
-}
-#pricing-table2-o .mbr-plan-header,
-#pricing-table2-o .mbr-plan-body {
-  background-color: #f4f4f4;
-}
-#pricing-table2-o ul,
-#pricing-table2-o .mbr-plan-title,
-#pricing-table2-o .mbr-price-value,
-#pricing-table2-o .mbr-price-figure,
-#pricing-table2-o .mbr-price-term {
-  color: #28262b;
-}
-#pricing-table2-o .mbr-plan {
-  border-color: #e8e8e8;
-}
-#pricing-table2-o .mbr-plan .list-group-item {
-  border-color: #cfcfcf;
-}
-#pricing-table2-o .mbr-price-figure {
-  font-size: 36px;
 }
 #header3-i .mbr-section-title,
 #header3-i .mbr-section-subtitle {
@@ -576,6 +549,47 @@ section.form .container {
 }
 #header3-i .mbr-section-title {
   font-size: 36px;
+}
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-10 .mbr-section-title {
+  color: #41a85f;
+  font-size: 80px;
+}
+#header3-11 .mbr-section-title,
+#header3-11 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-11 .mbr-section-subtitle {
+  color: #41a85f;
+}
+#header3-11 .mbr-section-title {
+  font-size: 22px;
+  color: #41a85f;
+}
+#slider2-15 .mbr-section-title,
+#slider2-15 .mbr-section-lead {
+  color: #fff;
+}
+#header3-13 .mbr-section-title,
+#header3-13 .mbr-section-subtitle {
+  text-align: center;
+}
+#features4-12 .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-12 .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+#header3-t .mbr-section-title,
+#header3-t .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-t .mbr-section-title {
+  color: #efefef;
 }
 #header3-g .mbr-section-title,
 #header3-g .mbr-section-subtitle {
@@ -598,6 +612,13 @@ section.form .container {
 }
 #features1-n .mbr-cards-col:nth-child(odd) .card-text {
   color: #000000;
+}
+#header3-d .mbr-section-title,
+#header3-d .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-d .mbr-section-title {
+  color: #ffffff;
 }
 #form1-r .form-control-label {
   color: #232323;

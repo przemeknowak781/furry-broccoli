@@ -21,14 +21,15 @@
         "isRtl": false
       },
       "additionalSetColors": [
-        "#2b2727"
+        "#2b2727",
+        "#b2ffba"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.2",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 28,
+    "uniqCompNum": 42,
     "versionPublish": "4.12.2",
     "screenshot": "screenshot.png"
   },
@@ -209,7 +210,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#pricing-table2-o\">OFERTA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-d\">LOKALIZACJA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-i\">GALERIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#bottom\">KONTAKT</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-10\">OFERTA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-d\">LOKALIZACJA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-i\">GALERIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#bottom\">KONTAKT</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -350,44 +351,6 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#2b2727"
-          },
-          "title": "Wspaniała lokalizacja",
-          "meta": "Blisko centrum, daleko od zgiełku.",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-d"
-        },
-        {
-          "_params": {
-            "googleMap": {
-              "address": "Starobielawska 28 Wrocław",
-              "placeId": "ChIJrfA0Gc_qD0cRualOv-gwLRo",
-              "state": "ok",
-              "stateDetails": ""
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "map1",
-          "_anchor": "map1-7"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
             }
           },
           "_params": {
@@ -454,92 +417,6 @@
           ],
           "_name": "slider",
           "_anchor": "slider-c"
-        },
-        {
-          "_inherit": "pricing-table1",
-          "_styles": {
-            ".mbr-plan-header, .mbr-plan-body": {
-              "background-color": "#f4f4f4"
-            },
-            "ul, .mbr-plan-title, .mbr-price-value, .mbr-price-figure, .mbr-price-term": {
-              "color": "#28262b"
-            },
-            ".mbr-plan": {
-              "border-color": "#e8e8e8"
-            },
-            ".mbr-plan .list-group-item": {
-              "border-color": "#cfcfcf"
-            },
-            ".mbr-price-figure": {
-              "font-size": "36px"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "firstType": "hidden",
-            "secondType": "",
-            "thirdType": "",
-            "fourthType": "bg-primary",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showButtons": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "description1": "More details",
-          "description2": "możliwe kredytowanie",
-          "description3": "możliwe kredytowanie",
-          "description4": "możliwe kredytowanie",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\">DEMO</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black btn-black-outline\" data-toolbar=\"-mbrBtnMove\">DEMO</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "title": "OFERTA CENOWA",
-          "subtitle": "CENY POGLĄDOWE - PEŁNA OFERTA DOSTĘPNA U NASZYCH SPECJALISTÓW",
-          "title1": "STANDARD",
-          "title2": "PODSTAWOWY",
-          "title3": "PREMIUM",
-          "title4": "ULTIMATE",
-          "subtitle1": "Description",
-          "subtitle2": "Zamieszkaj już teraz!",
-          "subtitle3": "Description",
-          "subtitle4": "Description",
-          "label1": "HOT!",
-          "label2": "HOT!",
-          "label3": "HOT!",
-          "label4": "DOSTĘPNE OD RĘKI",
-          "currency1": "&nbsp;",
-          "currency2": "&nbsp;",
-          "currency3": "&nbsp;",
-          "currency4": "&nbsp;&nbsp;",
-          "price1": "72000",
-          "price2": "720000",
-          "price3": "730000",
-          "price4": "750000",
-          "period1": ".00",
-          "period2": ".00",
-          "period3": ".00",
-          "period4": ".00",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">-Budynek w stanie deweloperskim</li><li class=\"list-group-item\">-50 mkw ogrodu</li><li class=\"list-group-item\"><br></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">-Podstawowe wykończenie</li><li class=\"list-group-item\">-Prace ziemne w ogrodzie</li><li class=\"list-group-item\">-Korzystne kredytowanie</li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">-Nowoczesny projekt wnętrza</li><li class=\"list-group-item\">-Korzystne kredytowanie</li><li class=\"list-group-item\">-Prace wykończeniowe</li></ul>",
-          "_name": "pricing-table2",
-          "_anchor": "pricing-table2-o"
         },
         {
           "_styles": {
@@ -624,6 +501,78 @@
                 "title": "",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image-02-2000x1125.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/image-02-2000x1125-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/image-04-2000x1125.png",
+                "thumb": "@PROJECT_PATH@/assets/images/image-04-2000x1125-800x450.png",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/laz-2-2000x1125.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/laz-2-2000x1125-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/laz5-2000x1125.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/laz5-2000x1125-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/syp-2-2000x1125.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/syp-2-2000x1125-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/sypialnia-1-2000x1125.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/sypialnia-1-2000x1125-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
               }
             ]
           },
@@ -634,6 +583,394 @@
           "allItem": "All",
           "_name": "gallery2",
           "_anchor": "gallery2-h"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#41a85f",
+              "font-size": "80px"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "719tys zł",
+          "meta": "<b>Mieszkanie wykończone, gotowe do wprowadzenia</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-10"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#41a85f"
+            },
+            ".mbr-section-title": {
+              "font-size": "22px",
+              "color": "#41a85f"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Dostępne mieszkania",
+          "meta": "&nbsp;",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-11"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": "2",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/dostpne-2000x1125.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BACKGROUND VIDEO",
+                "overlay": false,
+                "contentAlign": "left",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pientro-2000x1125.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "BACKGROUND VIDEO",
+                "overlay": false,
+                "contentAlign": "left",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-15"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "W cenie:",
+          "meta": "&nbsp;",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-13"
+        },
+        {
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "#f2f2f2",
+              "border-color": "#f2f2f2"
+            }
+          },
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#f2f2f2",
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "columns": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "key",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "growing-chart",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "linkInNewWindow": false,
+              "name": "change-style",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "black"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "black",
+              "family": "et-line"
+            }
+          },
+          "title1": "Wykończenie w wysokim standadzie&nbsp;",
+          "subtitle1": "&nbsp;",
+          "caption1": "Każdy z naszych budynków wykańczamy do stopnia pozwalającego na komfortowe użytkowanie. Zobacz przykłady naszych inwestycji poniżej!",
+          "title2": "Pomoc w formalnościach",
+          "subtitle2": "&nbsp;",
+          "caption2": "Przeprowadzimy Cię przez każdy etap trudnych formalności. Specjaliści od kredytowania i nieruchomości zrobią wszystko aby proces zakupu nowego lokum przebiegł przyjemnie i bez komplikacji.",
+          "title3": "Konsultacja architekta",
+          "subtitle3": "&nbsp;",
+          "caption3": "Nie masz pomysłu na urządzenie swoich czterech ścian? Spotkaj się z architektem wnętrz, który doradzi jak urządzić modne i estetyczne mieszkanie nie nadwerężając przy tym budżetu",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features4",
+          "_anchor": "features4-12"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2b2727"
+          },
+          "title": "Standard wykończenia",
+          "meta": "Zdjęcia z poprzednich inwestycji",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-t"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": true,
+            "spacing": 1,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "filterBgColor": true,
+            "bgColor": "#2b2727",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89261285-137110261025357-5364635798786277376-n-599x900.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89261285-137110261025357-5364635798786277376-n-599x900-599x900.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89028057-141848543794426-1222518924197756928-n-1599x1200.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/89028057-141848543794426-1222518924197756928-n-1599x1200-800x760.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-300x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-300x400-300x400.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89235899-826772314497920-8416376557001506816-n-1600x1200.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/89235899-826772314497920-8416376557001506816-n-1600x1200-800x625.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-300x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-300x400-300x400.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89437981-2996073750456079-2277194357578661888-n-1599x1186.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89437981-2996073750456079-2277194357578661888-n-1599x1186-800x593.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/88395983-407241646812179-1802274109690740736-n-450x600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/88395983-407241646812179-1802274109690740736-n-450x600-450x600.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/89354305-1108177669518598-5995257334232776704-n-300x400.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/89354305-1108177669518598-5995257334232776704-n-300x400-300x271.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery3",
+          "_anchor": "gallery3-s"
         },
         {
           "_styles": {
@@ -684,7 +1021,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/3-600x424.png",
+              "src": "@PROJECT_PATH@/assets/images/2-600x424.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -695,7 +1032,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/2-600x424.png",
+              "src": "@PROJECT_PATH@/assets/images/3-600x424.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -739,12 +1076,12 @@
               "active": true
             }
           },
-          "title1": "Jan Kowalski",
-          "subtitle1": "Specjalista ds. finansowania i kredytów",
-          "caption1": "Dzięki wieloletniemu doświadczeniu w świecie ekonomii Jan Kowalski przeprowadzi Cię przez każdy etap związany z finansowaniem Twojego zakupu i nie pozwoli Ci zginąć w tonach papierów do wypełnienia",
-          "title2": "Bartosz Skop",
-          "subtitle2": "Specjalista ds. obrotu nieruchomościami",
-          "caption2": "Czujesz się niepewnie wypełniając kolejne akty notarialne i oświadczenia? Język urzędowy brzmi jak kod enigmy? Bartosz Skop zna wszystkie zawiłości skomplikowanego rynku obrotu nieruchomościami!",
+          "title1": "Bartosz Skop",
+          "subtitle1": "Specjalista ds. obrotu nieruchomościami",
+          "caption1": "Czujesz się niepewnie wypełniając kolejne akty notarialne i oświadczenia? Język urzędowy brzmi jak kod enigmy? Bartosz Skop zna wszystkie zawiłości skomplikowanego rynku obrotu nieruchomościami!",
+          "title2": "Krzysztof Rutowicz",
+          "subtitle2": "Specjalista ds. finansowania i kredytów",
+          "caption2": "Dzięki wieloletniemu doświadczeniu w świecie ekonomii Krzysztof Rutowicz przeprowadzi Cię przez każdy etap związany z finansowaniem Twojego zakupu i nie pozwoli Ci zginąć w tonach papierów do wypełnienia",
           "title3": "Przemek Nowak",
           "subtitle3": "Architekt, projektant wnętrz",
           "caption3": "Każde mieszkanie można urządzić za pomocą kilku mebli i wiadra farby. Można też zamienić je w prawdziwe dzieło sztuki i to niewielkim kosztem! Nie wierzysz? Skontaktuj się z Przemkiem, który przygotowuje aranżacje specjalnie dla inwestycji Elizjum!",
@@ -787,6 +1124,44 @@
           }
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showMeta": true,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#2b2727"
+          },
+          "title": "Wspaniała lokalizacja",
+          "meta": "Blisko centrum, daleko od zgiełku.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-d"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "Starobielawska 28 Wrocław",
+              "placeId": "ChIJrfA0Gc_qD0cRualOv-gwLRo",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-7"
+        },
+        {
           "_params": {
             "showTitle": true,
             "showSubTitle": true,
@@ -804,7 +1179,7 @@
           },
           "title": "ZAPYTAJ O OFERTĘ DLA SIEBIE!",
           "subtitle": "Opisz swoje potrzeby i zadaj nam pytanie - skontaktujemy się!",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Skontaktuj się!</a>",
           "form": {
             "action": "bartoszskop16@gmail.com",
             "alerts": {
@@ -871,7 +1246,7 @@
               "size": 0
             }
           },
-          "text1": "<strong>Kredytowanie</strong><br>Jan Kowalski<br>specjlista ds. kredytów<br>(48) 673 234 546<br>jan@kowalski.pl",
+          "text1": "<strong>Kredytowanie</strong><br>Krzysztof Rutowicz<br>specjlista ds. kredytów<br>(48) 673 234 546<br>jan@kowalski.pl",
           "text2": "<strong>Sprzedaż nieruchomości</strong><br>Bartosz Skop<br>\nspecjalista ds. nieruchomości<br>\n(48) 545 325 232<br>bartoszskop16@gmail.com<br>",
           "text3": "<strong>Projekty wnętrz</strong><br><strong><br></strong>Przemysław Nowak<br>791617428<br>przemek.nowak781@gmail.com",
           "_tags": [
