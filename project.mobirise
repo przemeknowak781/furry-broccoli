@@ -29,7 +29,7 @@
     "versionFirst": "4.12.2",
     "siteFonts": [],
     "imageResize": true,
-    "uniqCompNum": 42,
+    "uniqCompNum": 44,
     "versionPublish": "4.12.2",
     "screenshot": "screenshot.png"
   },
@@ -67,7 +67,7 @@
             "overlayColor": "#c1c1c1",
             "overlayOpacity": "0.3"
           },
-          "title": "ELIZJUM<br><br>",
+          "title": "DORMENA<br><br>",
           "text": "Kameralna zabudowa szeregowa we Wrocławiu.<br> Ceny od 719 tys zł",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#pricing-table2-o\" data-toolbar=\"-mbrBtnMove\">Zobacz ofertę</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#contacts1-q\" data-toolbar=\"-mbrBtnMove\">SKONTAKTUJ SIĘ</a>",
           "_tags": [
@@ -226,7 +226,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INWESTYCJA ELIZJUM</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">INWESTYCJA DORMENA</a>",
           "_tags": [
             "Theme"
           ],
@@ -625,7 +625,7 @@
             "bgColor": "#fff"
           },
           "title": "719tys zł",
-          "meta": "<b>Mieszkanie wykończone, gotowe do wprowadzenia</b>",
+          "meta": "<b>Mieszkanie wykończone</b>",
           "_tags": [
             "Theme"
           ],
@@ -651,7 +651,7 @@
             "paddingBottom": "0",
             "bgColor": "#fff"
           },
-          "title": "Dostępne mieszkania",
+          "title": "Zakończenie inwestycji: IV kwartał 2020",
           "meta": "&nbsp;",
           "_tags": [
             "Theme"
@@ -666,10 +666,10 @@
             }
           },
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "showBullets": true,
             "bgColor": "#ffffff",
-            "timeout": "2",
+            "timeout": "10",
             "paddingTop": 4,
             "paddingBottom": 4,
             "slides": [
@@ -708,6 +708,33 @@
           ],
           "_name": "slider2",
           "_anchor": "slider2-15"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/powierzchnie-1202x322.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-17"
         },
         {
           "_styles": {
@@ -766,7 +793,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
               "linkInNewWindow": false,
-              "name": "key",
+              "name": "magic-stick",
               "family": "MobiriseIcons",
               "active": true,
               "link": "",
@@ -925,8 +952,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-300x400.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-300x400-300x400.jpg",
+                "image": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-1-300x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89047571-878114015969193-5002106023171850240-n-1-300x400-300x400.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here"
@@ -947,8 +974,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-300x400.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-300x400-300x400.jpg",
+                "image": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-1-300x400.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/89176230-526081041648490-252559702095822848-n-1-300x400-300x400.jpg",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here"
